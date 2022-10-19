@@ -5,3 +5,6 @@ const lastName = prompt("Inserisci il tuo cognome");
 // 3. Chiedo il suo colore preferito
 const favouriteColor = prompt("Inserisci il tuo colore preferito");
 // 4. Stampare all'interno della pagina la seguente stringa"nomecognomecolorepreferito76"
+const password = `${firstName+lastName+favouriteColor}76`;
+console.log(password);
+document.querySelector("h1").innerHTML = password;
